@@ -1,9 +1,9 @@
 {
-  "name": "@cheeseswapfinance/web3-react-injected-connector",
+  "name": "@web3react/injected-connector",
   "publishConfig": {
     "access": "public"
   },
-  "version": "7.1.3",
+  "version": "7.2.1",
   "description": "Simple, maximally extensible, dependency minimized framework for EVM based dApps",
   "keywords": [
     "react",
@@ -21,10 +21,10 @@
   "author": "Tanvir Rahaman <bitbd83@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cheeseswapbsc/web3-react-injected-connector"
+    "url": "https://github.com/cheeseswapbsc/web3react-injected-connector"
   },
   "main": "dist/index.js",
-  "module": "dist/web3-react-injected-connector.esm.js",
+  "module": "dist/injected-connector.esm.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
@@ -38,10 +38,9 @@
     "node": ">=16.0.0"
   },
   "dependencies": {
-    "@cheeseswapfinance/web3-react-abstract-connector": "^7.1.3",
-    "@cheeseswapfinance/web3-react-types": "^7.1.2",
-    "tiny-warning": "^1.0.3",
-    "tsdx": "^0.11.0"
+    "@web3react/abstract-connector": "^7.2.1",
+    "@web3react/types": "^7.2.1",
+    "tiny-warning": "^1.0.3"
   },
   "license": "GPL-3.0-or-later"
 }
